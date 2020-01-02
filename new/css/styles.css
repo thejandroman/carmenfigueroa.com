@@ -1,4 +1,4 @@
-BODY {
+body {
     background: black;
     margin-left: 0;
     margin-top: 0;
@@ -16,10 +16,12 @@ body {
 }
 
 a:link, a:visited, a:active {
-    color:white;text-decoration:none
+    color: white;
+    text-decoration: none;
 }
 a:hover {
-    color:red;text-decoration:none
+    color: red;
+    text-decoration: none;
 }
 
 .center {
@@ -48,6 +50,10 @@ h6 a:link, h6 a:visited, h6 a:active {
 h6 a:hover {
     color: white;
     text-decoration: none;
+}
+
+p, figcaption, b {
+    color: white;
 }
 
 /* Slideshow settings below */
