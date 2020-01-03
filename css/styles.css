@@ -1,3 +1,12 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+}
+
 .container {
     display: block;
     width: 606px;
@@ -15,6 +24,40 @@
 
 .white-border {
     border:1px solid white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.h6-container {
+    font-family: Sans-Serif;
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: #ff3d00;
+}
+h6 a:link, h6 a:visited, h6 a:active {
+    color:#ff3d00;
+    text-decoration: none;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+h6 a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 /* Slideshow settings below */
